@@ -11,7 +11,10 @@ import { Mission } from "./pages/Mission";
 
 const App = () => {
   return (
-    <div id="homePage" className="h-full bg-cover bg-fixed overflow-hidden">
+    <div
+      id="homePage"
+      className="bg-cover bg-fixed overflow-x-hidden w-screen h-screen"
+    >
       <Router>
         <div>
           <Header />
@@ -21,6 +24,7 @@ const App = () => {
             <Route path="/Weather" element={<Weather />} />
             <Route path="/GPS" element={<GPS />} />
             <Route path="/Discoveries" element={<Discoveries />} />
+
             <Route path="/Sites" element={<Sites />} />
             <Route path="/Mission" element={<Mission />} />
           </Routes>

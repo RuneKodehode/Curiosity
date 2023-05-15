@@ -2,7 +2,10 @@ import React from "react";
 
 const Equipment = () => {
   return (
-    <div id="equipment" className="text-white w-screen bg-opacity-80 bg-black">
+    <div
+      id="equipment"
+      className="text-white bg-opacity-80 bg-black overflow-hidden"
+    >
       <h1 className="text-6xl text-orange-400 text-center">Equipment</h1>
       <div className="text-center mb-10">
         <div className="w-1/2 flex mx-auto gap-10 mt-20">
