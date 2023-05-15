@@ -66,20 +66,31 @@ export const Header = () => {
                 >
                   GPS
                 </Link>
-                <button className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center">
+                <Link
+                  to="/Sites"
+                  onClick={handleClearImages}
+                  className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center"
+                >
                   Sites
-                </button>
+                </Link>
               </div>
               <div className="div3 flex">
-                <button
+                <Link
                   id="discoveries"
+                  to="/Discoveries"
+                  onClick={handleClearImages}
                   className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center"
                 >
                   Discoveries
-                </button>
-                <button className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center">
-                  Surprise
-                </button>
+                </Link>
+                <Link
+                  id="Mission"
+                  to="/Mission"
+                  onClick={handleClearImages}
+                  className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center"
+                >
+                  Mission
+                </Link>
               </div>
             </ul>
           </div>

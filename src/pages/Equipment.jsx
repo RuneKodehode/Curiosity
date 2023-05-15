@@ -3,8 +3,8 @@ import React from "react";
 const Equipment = () => {
   return (
     <div id="equipment" className="text-white w-screen bg-opacity-80 bg-black">
+      <h1 className="text-6xl text-orange-400 text-center">Equipment</h1>
       <div className="text-center mb-10">
-        <h1 className="mb-4 text-5xl underline pt-20">Cameras</h1>
         <div className="w-1/2 flex mx-auto gap-10 mt-20">
           <img
             src="/Mastcam.jpg"
@@ -203,7 +203,7 @@ const Equipment = () => {
               MEDLI (Mars Science Laboratory Entry Descent and Landing
               Instrument)
             </h2>
-            <p className="text-left font-light text-lg">
+            <p className="text-left font-light text-lg pb-40">
               The Mars Science Laboratory Entry Descent and Landing Instrument
               is called MEDLI. MEDLI measured the heating and atmospheric
               pressure changes that occurred during the descent to help
