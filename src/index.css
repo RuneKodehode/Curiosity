@@ -71,27 +71,20 @@ body {
   cursor: zoom-out;
 }
 
-/* ANimation */
+/*------------------------ ANimation---------------------- */
 
+/* Water Droplet */
 .drop {
   position: relative;
   width: 20px;
   height: 20px;
-  top: -30px;
-  margin: 0 auto;
   background: #fff;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  -moz-animation-name: drip;
-  -webkit-animation-name: drip;
   animation-name: drip;
-  -moz-animation-timing-function: cubic-bezier(10, 10, 0.91, 0.19);
-  -webkit-animation-timing-function: cubic-bezier(1, 0, 0.91, 0.19);
   animation-timing-function: cubic-bezier(1, 0, 0.91, 0.19);
-
   animation-duration: 2s;
-
   -moz-animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -100,23 +93,53 @@ body {
 .drop:before {
   content: "";
   position: absolute;
-  width: 0;
-  height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 30px solid rgba(255, 255, 255, 1);
   top: -22px;
 }
-
 @keyframes drip {
   from {
     top: -20%;
+    opacity: 0;
   }
   to {
     top: 100%;
-    opacity: 0;
   }
 }
+
+/* end of water droplet */
+
+/* radiation spin */
+
+.radiation {
+  animation: spin 4s ease-in-out infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* end of radiation */
+/* atmosphere animation */
+.atmos {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 3px solid white;
+  outline: 1px solid rgb(255, 255, 255);
+  outline-offset: 2rem;
+  animation: atmos 0.7s ease-in-out alternate-reverse infinite;
+}
+@keyframes atmos {
+  0% {
+    outline: 1px solid rgba(255, 255, 255, 0.056);
+  }
+  100% {
+    outline: 5px solid rgb(255, 255, 255);
+  }
+}
+/* end of atmosphere animation */
 @media screen and (max-width: 600px) {
   #image-container img:hover {
     transform: scale(1.1);

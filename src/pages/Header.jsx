@@ -41,7 +41,7 @@ export const Header = () => {
               {/* Adjust the size and spacing as needed */}
             </Link>
 
-            <ul className="sub-menu ease-in-out delay-1000 duration-700">
+            <ul className="sub-menu ease-in-out delay-500 duration-700">
               <div className="flex">
                 <Link
                   to="/Equipment"
@@ -67,11 +67,11 @@ export const Header = () => {
                   GPS
                 </Link>
                 <Link
-                  to="/Sites"
+                  to="/Communication"
                   onClick={handleClearImages}
                   className="bg-black bg-opacity-80 py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400 text-center"
                 >
-                  Sites
+                  Comms
                 </Link>
               </div>
               <div className="div3 flex">

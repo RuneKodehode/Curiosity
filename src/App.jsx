@@ -6,7 +6,7 @@ import { Header } from "./pages/Header";
 import { Weather } from "./pages/Weather";
 import { GPS } from "./pages/GPS";
 import { Discoveries } from "./pages/Discoveries";
-import { Sites } from "./pages/Sites";
+import { Communication } from "./pages/Communication";
 import { Mission } from "./pages/Mission";
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/GPS" element={<GPS />} />
             <Route path="/Discoveries" element={<Discoveries />} />
 
-            <Route path="/Sites" element={<Sites />} />
+            <Route path="/Communication" element={<Communication />} />
             <Route path="/Mission" element={<Mission />} />
           </Routes>
         </div>
