@@ -4,10 +4,8 @@ import { ReactComponent as Carbon } from "../svg/Carbon.svg";
 import { ReactComponent as Methane } from "../svg/Methane.svg";
 export const Discoveries = () => {
   return (
-    <div className=" bg-black bg-opacity-80 text-white pb-40">
+    <div className=" bg-black bg-opacity-80 text-white py-20">
       <h1 className="text-center text-6xl text-orange-400">Discoveries</h1>
-
-      {/* -------------- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4">
           {" "}

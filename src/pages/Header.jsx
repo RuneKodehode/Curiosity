@@ -122,7 +122,7 @@ export const Header = () => {
           </a>
         </div>
       </div>
-      <div className="sm:pt-20 pt-32">
+      <div className="sm:pt-20 pt-20">
         <div id="image-container" className="w-screen h-auto flex flex-wrap">
           {imageUrls.map((url, index) => (
             <img

@@ -1,7 +1,6 @@
 export const Communication = () => {
   return (
-    <div className=" bg-black bg-opacity-80 text-white pb-40">
-      {/* -------------- */}{" "}
+    <div className=" bg-black bg-opacity-80 text-white py-20">
       <h1 className="text-center text-6xl text-orange-400">Communication</h1>
       <div className="flex w-screen pt-20">
         <div className="w-1/4"></div>

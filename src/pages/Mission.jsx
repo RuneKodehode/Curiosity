@@ -1,6 +1,6 @@
 export const Mission = () => {
   return (
-    <div className=" bg-black bg-opacity-80 text-white pb-40">
+    <div className=" bg-black bg-opacity-80 text-white py-20">
       <h1 className="text-center text-6xl text-orange-400">Mission</h1>
 
       {/* -------------- */}
