@@ -24,7 +24,6 @@ const App = () => {
             <Route path="/Weather" element={<Weather />} />
             <Route path="/GPS" element={<GPS />} />
             <Route path="/Discoveries" element={<Discoveries />} />
-
             <Route path="/Communication" element={<Communication />} />
             <Route path="/Mission" element={<Mission />} />
           </Routes>

@@ -25,10 +25,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Size and Strength of the DSN Antennas
               </h2>
@@ -48,17 +46,11 @@ export const Communication = () => {
           </div>
         </div>
       </div>
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Carbon className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Preventing Busy Signals
               </h2>
@@ -99,19 +91,12 @@ export const Communication = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
-      {/* ----- */}{" "}
       <h1 className="text-center text-6xl text-orange-400 mt-20">Navigation</h1>
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 How the DSN helps engineers navigate the spacecraft during
                 cruise
@@ -137,13 +122,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">Doppler Data</h2>
               <p className="text-left font-light text-lg tracking-wider">
                 In order to calculate the speed that a spacecraft is flying,
@@ -178,13 +158,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">Ranging</h2>
               <p className="text-left font-light text-lg tracking-wider">
                 Ranging is sending a code to the spacecraft, having the
@@ -205,13 +180,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">Delta Dor</h2>
               <p className="text-left font-light text-lg tracking-wider">
                 Delta DOR is similar to ranging, but it also takes in a third
@@ -247,13 +217,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Special signal tones the DSN received during entry, descent, and
                 landing
@@ -288,13 +253,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 How the rover can communicate through Mars-orbiting spacecraft
               </h2>
@@ -332,13 +292,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 X-band radio waves used by the rover to communicate
               </h2>
@@ -395,13 +350,8 @@ export const Communication = () => {
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">Data Rates/Returns</h2>
               <p className="text-left font-light text-lg tracking-wider">
                 The data rate direct-to-Earth varies from about 500 bits per

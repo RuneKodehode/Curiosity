@@ -2,8 +2,6 @@ export const Mission = () => {
   return (
     <div className=" bg-black bg-opacity-80 text-white py-20">
       <h1 className="text-center text-6xl text-orange-400">Mission</h1>
-
-      {/* -------------- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div className="flex-col w-1/2">
@@ -41,14 +39,11 @@ export const Mission = () => {
           </p>
         </div>
       </div>
-      {/* ----------------------- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Goal 2: Characterize the climate of Mars
               </h2>
@@ -94,18 +89,11 @@ export const Mission = () => {
           </div>
         </div>
       </div>
-
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Carbon className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Goal 3: Characterize the geology of Mars
               </h2>
@@ -121,18 +109,11 @@ export const Mission = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div className="w-1/4"></div>
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
-            {/* <div className="w-1/4 flex">
-              <Methane className="mx-auto w-1/4 h-auto self-center" />
-            </div> */}
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Goal 4: Prepare for human exploration
               </h2>

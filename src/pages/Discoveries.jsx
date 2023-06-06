@@ -8,7 +8,6 @@ export const Discoveries = () => {
       <h1 className="text-center text-6xl text-orange-400">Discoveries</h1>
       <div className="flex w-screen mt-20">
         <div className="w-1/4">
-          {" "}
           <div className="drop idden md:block mx-auto"></div>
         </div>
         <div className="flex-col w-1/2">
@@ -25,16 +24,13 @@ export const Discoveries = () => {
           </p>
         </div>
       </div>
-      {/* ----------------------- */}
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 flex">
               <Oak className=" mx-auto w-1/4 h-auto " />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 A Suitable Home for Life
               </h2>
@@ -51,17 +47,13 @@ export const Discoveries = () => {
           </div>
         </div>
       </div>
-
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 flex">
               <Carbon className="mx-auto w-1/4 h-auto self-center" />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Organic Carbon Found in Mars Rocks
               </h2>
@@ -79,17 +71,13 @@ export const Discoveries = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 flex">
               <Methane className="mx-auto w-1/4 h-auto self-center" />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Present and Active Methane in Mars' Atmosphere
               </h2>
@@ -107,17 +95,13 @@ export const Discoveries = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 flex">
               <Radiation className="radiation mx-auto w-1/4 self-center" />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 Radiation Could Pose Health Risks for Humans
               </h2>
@@ -137,17 +121,13 @@ export const Discoveries = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
-      {/* ----- */}
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 flex">
               <div className="atmos mx-auto w-1/4 self-center"></div>
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 A Thicker Atmosphere and More Water in Mars' Past
               </h2>
@@ -163,7 +143,6 @@ export const Discoveries = () => {
           </div>
         </div>
       </div>
-      {/* ---- */}
     </div>
   );
 };

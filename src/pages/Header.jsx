@@ -38,9 +38,7 @@ export const Header = () => {
               className="py-3 w-24 focus:invert border border-black border-opacity-0 hover:border hover:border-orange-400"
             >
               <BurgerMenu className="h-full my-auto mx-auto" />{" "}
-              {/* Adjust the size and spacing as needed */}
             </Link>
-
             <ul className="sub-menu ease-in-out delay-500 duration-700">
               <div className="flex">
                 <Link

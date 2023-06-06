@@ -6,7 +6,6 @@ const Equipment = () => {
       <h1 className="text-center text-5xl text-orange-400">Cameras</h1>
       <div className="flex w-screen my-20">
         <div className="w-1/4 h-40 flex ">
-          {" "}
           <img
             src="/Mastcam.jpg"
             alt=""
@@ -24,10 +23,8 @@ const Equipment = () => {
           </p>
         </div>
       </div>
-      {/* ----------------------- */}
       <div className="flex w-screen">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -51,7 +48,6 @@ const Equipment = () => {
           </div>
           <div className="flex w-screen mt-20">
             <div className="w-1/4 h-40 flex">
-              {" "}
               <img
                 src="/MARDI.jpg"
                 alt=""
@@ -78,7 +74,6 @@ const Equipment = () => {
 
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -88,7 +83,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 APXS (Alpha Particle X-Ray Spectrometer) ›
               </h2>
@@ -105,7 +99,6 @@ const Equipment = () => {
 
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -115,7 +108,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 ChemCam (Chemistry and Camera) ›
               </h2>
@@ -131,7 +123,6 @@ const Equipment = () => {
 
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -141,7 +132,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 CheMin (Chemical and Mineralogy) ›
               </h2>
@@ -157,7 +147,6 @@ const Equipment = () => {
 
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -167,7 +156,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 SAM (Sample Analysis at Mars) ›
               </h2>
@@ -181,13 +169,11 @@ const Equipment = () => {
           </div>
         </div>
       </div>
-
       <h1 className="text-center text-5xl text-orange-400 my-20">
         Radiation Detectors
       </h1>
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -197,7 +183,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 RAD (Radiation Assessment Detector) ›
               </h2>
@@ -211,10 +196,8 @@ const Equipment = () => {
           </div>
         </div>
       </div>
-
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -224,7 +207,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 DAN (Dynamic Albedo Of Neutrons) ›
               </h2>
@@ -237,13 +219,11 @@ const Equipment = () => {
           </div>
         </div>
       </div>
-
       <h1 className="text-center text-5xl text-orange-400 my-20">
         Environmental Sensors
       </h1>
       <div className="flex w-screen mt-20">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -253,7 +233,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 REMS (Rover Environmental Monitoring Station) ›
               </h2>
@@ -267,13 +246,11 @@ const Equipment = () => {
           </div>
         </div>
       </div>
-
       <h1 className="text-center text-5xl text-orange-400 my-20">
         Atmospheric Sensors
       </h1>
       <div className="flex w-screen">
         <div id="info" className="w-1/2">
-          {" "}
           <div className="flex w-screen">
             <div className="w-1/4 h-40 flex">
               <img
@@ -283,7 +260,6 @@ const Equipment = () => {
               />
             </div>
             <div className="flex-col w-1/2">
-              {" "}
               <h2 className="text-4xl mb-5 text-left">
                 MEDLI (Mars Science Laboratory Entry Descent and Landing
                 Instrument) ›
