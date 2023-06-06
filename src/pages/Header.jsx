@@ -29,7 +29,7 @@ export const Header = () => {
 
   return (
     <div>
-      <div className="flex flex-row justify-between text-xl text-white bg-opacity-80 bg-black fixed w-full z-50 md:h-20 h-32">
+      <div className="flex flex-row justify-between text-xl text-white bg-opacity-80 bg-black fixed w-full z-50 md:h-20 h-20">
         <div className="flex flex-row">
           <div className="menu flex" tab-index="0">
             <Link
@@ -95,14 +95,13 @@ export const Header = () => {
             </ul>
           </div>
           <div className="sm:flex sm:flex-row sm:gap-2 pl-4">
-            <h1 className="text-center my-auto text-4xl">Mars</h1>
-            <h3 className="text-center my-auto text-orange-400 text-4xl">
+            <h1 className="text-center my-auto md:text-4xl">Mars</h1>
+            <h3 className="text-center my-auto text-orange-400 md:text-4xl">
               Curiosity
             </h3>
-            <h3 className="text-center my-auto text-4xl">Rover</h3>
+            <h3 className="text-center my-auto md:text-4xl">Rover</h3>
           </div>
         </div>
-
         <div className="flex sm:gap-4 pr-10">
           <input
             type="date"
@@ -110,7 +109,6 @@ export const Header = () => {
             onChange={handleChange}
             className="invert bg-white bg-opacity-0 text-black rounded-md"
           />
-
           <div id="sol" className="hidden sm:block my-auto">
             {sol}
           </div>

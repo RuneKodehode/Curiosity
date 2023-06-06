@@ -1,8 +1,8 @@
 export const Home = () => {
   return (
     <div className="h-screen text-white sm:fixed">
-      <h1 className="text-center text-6xl text-orange-400 bg-black w-fit mx-auto bg-opacity-80">
-        NASA's Curiosity Rover
+      <h1 className="text-center text-6xl text-orange-400 mt-10 w-fit mx-auto bg-opacity-80">
+        Curiosity Rover
       </h1>
       <div className=" w-screen gap-32 flex mt-20 justify-center ">
         <div className="w-3/4 sm:w-1/2 ">
