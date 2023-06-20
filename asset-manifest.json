@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Curiosity/static/css/main.c8c3a030.css",
+    "main.js": "/Curiosity/static/js/main.e61678e7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Curiosity/static/js/787.28cb0dcd.chunk.js",
+    "static/media/rover.jpg": "/Curiosity/static/media/rover.93d8c4cef68fb7252e03.jpg",
+    "static/media/Carbon.svg": "/Curiosity/static/media/Carbon.578c6d08a26998cfbe0242cfea670ffc.svg",
+    "static/media/Methane.svg": "/Curiosity/static/media/Methane.98fcd0b5c17bd405c72b9aae39a4d8a2.svg",
+    "static/media/oak.svg": "/Curiosity/static/media/oak.b8d7589d431dc06e0d6211c29829cfc0.svg",
+    "static/media/borgir.svg": "/Curiosity/static/media/borgir.883933338e352632294f5f2ee1c94df0.svg",
+    "static/media/radiation.svg": "/Curiosity/static/media/radiation.469f89ae164203db3ebddc53640984f3.svg",
+    "index.html": "/Curiosity/index.html",
+    "main.c8c3a030.css.map": "/Curiosity/static/css/main.c8c3a030.css.map",
+    "main.e61678e7.js.map": "/Curiosity/static/js/main.e61678e7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Curiosity/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8c3a030.css",
+    "static/js/main.e61678e7.js"
+  ]
+}
